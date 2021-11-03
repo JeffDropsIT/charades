@@ -1,1 +1,30 @@
+body {
+  height: 100vh;
+  background-color:white;
+}
+
 /* You can add global styles to this file, and also import other style files */
+.button {
+  border: 5px solid rgb(30, 97, 4);
+  background-color: green;
+  color:white;
+  padding: 14px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  margin: 25px 0;
+}
+

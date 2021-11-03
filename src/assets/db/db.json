@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "description": "RICKSHAW BUS",
+    "src": "assets/images/rickshaw-bus.jpg",
+    "href": ""
+  },
+  {
+    "id": 2,
+    "description": "LEGACY YARD",
+    "src": "assets/images/legacy.jpg"
+  },
+  {
+    "id": 3,
+    "description": "DURBAN COUNTRY CLUB",
+    "src": "assets/images/durban-country club.jpg"
+  },
+  {
+    "id": 4,
+    "description": "GATEWAY MALL",
+    "src": "assets/images/gateway.jpg"
+  },
+  {
+    "id": 5,
+    "description": "BAT CENTRE",
+    "src": "assets/images/bat.jpg"
+  },
+  {
+    "id": 6,
+    "description": "WILSON'S WHARF",
+    "src": "assets/images/wilson.jpg"
+  },
+  {
+    "id": 7,
+    "description": "DURBAN ICC",
+    "src": "assets/images/icc.jpeg"
+  },
+  {
+    "id": 8,
+    "description": "MITCHELL PARK ZOO",
+    "src": "assets/images/mitchell-park.jpg"
+  },
+  {
+    "id": 9,
+    "description": "SUNCOAST CASINO",
+    "src": "assets/images/suncoast.jpg"
+  },
+  {
+    "id": 10,
+    "description": "MOSES MABHIDA STADIUM",
+    "src": "assets/images/moses-mabhida.jpeg"
+  },
+  {
+    "id": 11,
+    "description": "KWAMUHLE MUSEUM",
+    "src": "assets/images/kwamuhle.jpg"
+  },
+  {
+    "id": 12,
+    "description": "OHLANGE HIGH SCHOOL",
+    "src": "assets/images/ohlange.jpg"
+  },
+  {
+    "id": 13,
+    "description": "SUNCOAST CASINO",
+    "src": "assets/images/suncoast.jpg"
+  },
+  {
+    "id": 14,
+    "description": "USHAKA MARINE WORLD",
+    "src": "assets/images/ushaka-marine.jpeg"
+  },
+  {
+    "id": 15,
+    "description": "MOSES MABHIDA STADIUM",
+    "src": "assets/images/moses-mabhida.jpeg"
+  },
+  {
+    "id": 16,
+    "description": "THE WORKSHOP",
+    "src": "assets/images/workshop.jpg"
+  },
+  {
+    "id": 17,
+    "description": "OYSTER BOX",
+    "src": "assets/images/oyster.jpg"
+  }
+]

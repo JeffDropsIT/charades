@@ -1,0 +1,7 @@
+<div class="timer">
+  <h4 class="mt-4"> Remaining duration</h4>
+  <div class="time" [style.color]="(timeDifference < (totalTime * .25)) ? 'red' : ''">
+    <span id="minutes"> {{minutesToDday}} </span>Min
+    <span id="seconds"> {{secondsToDday}} </span>S
+  </div>
+</div>

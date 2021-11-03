@@ -1,0 +1,6 @@
+<div class="card text-white bg-dark mb-3" style="width: 48rem; height: auto; overflow: hidden">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center">{{ image.description }}</h5>
+    <img [@fade]="state" class="card-img-top" style="object-fit: cover" (@fade.done)="onDone($event)" height="500px" [src]="image.src" (click)="onClick()"/>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+.rules {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+}
+
+.rule_header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.rule_1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  margin: 8px;
+}
+
+.play {
+  margin: 20px;
+}
