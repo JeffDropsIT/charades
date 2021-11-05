@@ -19,7 +19,6 @@ interface WordImage {
 })
 export class WordCardComponent implements OnInit {
 
-  name = 'Angular 5';
   choice = 2;
   state = 'in';
   counter = 0;
@@ -38,8 +37,8 @@ export class WordCardComponent implements OnInit {
   ngOnInit(): void {
     this.loadedImagesIds = [];
     this.wordImages = images;
-    this.image = this.drawRandomImage();
     this.imagesSize = images.length;
+    this.image = this.drawRandomImage();
   }
 
   onClick(): void {
@@ -63,7 +62,7 @@ export class WordCardComponent implements OnInit {
       this.loadedImagesIds = [];
       this.router.navigate(['end', {message: 'No Images Left'}]);
     }
-    const index = Math.floor((Math.random() * this.imagesSize - 1) + 1);
+    const index = (Math.floor(Math.pow(10, 14) * Math.random() * Math.random()) % (this.imagesSize));
     if (!this.loadedImagesIds.includes(index)) {
       this.loadedImagesIds.push(index);
       return this.wordImages[index];
